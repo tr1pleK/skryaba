@@ -1,0 +1,5 @@
+# Оригиналы фото с iPhone содержат GPS-координаты — не публикуем
+IMG_*.JPG
+IMG_*.jpg
+*.HEIC
+.DS_Store

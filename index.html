@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>skryăba — лонгслив-хенли без логотипа</title>
+  <meta name="description" content="skryăba — одежда без логотипов. Лонгслив-хенли из плотного хлопкового трикотажа: тихая роскошь по честной цене. Заказ в Telegram.">
+  <meta name="theme-color" content="#F2EDE5">
+  <meta name="color-scheme" content="light">
+
+  <!-- Open Graph. При переезде на свой домен замените адрес в этих строках -->
+  <link rel="canonical" href="https://tr1plek.github.io/skryaba/">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://tr1plek.github.io/skryaba/">
+  <meta property="og:site_name" content="skryăba">
+  <meta property="og:title" content="skryăba — роскошь без подписи">
+  <meta property="og:description" content="Лонгслив-хенли без логотипа. Плотный трикотаж, точный крой, честная цена.">
+  <meta property="og:image" content="https://tr1plek.github.io/skryaba/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400;1,500&family=Geist:wght@300..600&display=swap">
+
+  <link rel="preload" as="image" href="assets/img/hero-1600.webp" imagesrcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1600.webp 1600w, assets/img/hero-2400.webp 2400w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>
+    // JS включён — прячем элементы до анимации. Интро показываем один раз за сессию.
+    (function (d) {
+      d.classList.replace('no-js', 'js');
+      try {
+        if (sessionStorage.getItem('skr-intro') || matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('no-intro');
+      } catch (e) { d.classList.add('no-intro'); }
+    })(document.documentElement);
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Лонгслив-хенли skryăba",
+    "description": "Лонгслив-хенли без логотипа из плотного хлопкового трикотажа. Цвет: серый меланж.",
+    "brand": { "@type": "Brand", "name": "skryăba" },
+    "color": "Серый меланж",
+    "material": "Хлопок, эластан",
+    "image": ["https://tr1plek.github.io/skryaba/assets/img/look-1400.webp", "https://tr1plek.github.io/skryaba/assets/img/hero-1600.webp"],
+    "url": "https://tr1plek.github.io/skryaba/",
+    "offers": {
+      "@type": "Offer",
+      "price": "3500",
+      "priceCurrency": "RUB",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- ============ INTRO ============ -->
+  <div class="preloader" aria-hidden="true">
+    <span class="wm wm--intro">
+      <span class="wm__l">s</span><span class="wm__l">k</span><span class="wm__l">r</span><span class="wm__l">y</span><span class="wm__l wm__a">a<svg class="breve" viewBox="0 0 40 16"><path pathLength="1" d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg></span><span class="wm__l">b</span><span class="wm__l">a</span>
+    </span>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <a class="nav__brand" href="#top" aria-label="skryăba — наверх">
+      <span class="wm wm--nav" aria-hidden="true">skry<span class="wm__a">a<svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg></span>ba</span>
+    </a>
+    <nav class="nav__links" aria-label="Основная навигация">
+      <a href="#story">История</a>
+      <a href="#product">Вещь</a>
+      <a href="#buy">Размеры</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="nav__cta" href="#buy">Заказать</a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true" inert>
+    <nav class="menu__links" aria-label="Мобильная навигация">
+      <a href="#story"><span>История</span></a>
+      <a href="#product"><span>Вещь</span></a>
+      <a href="#buy"><span>Размеры и цена</span></a>
+      <a href="#faq"><span>Вопросы</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="#" data-tg-link>Telegram</a>
+      <a href="#" data-ig-link target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__intro container">
+        <p class="eyebrow" data-hero-fade>Коллекция&nbsp;01 · Лонгслив-хенли</p>
+        <h1 class="hero__title" data-hero-title>Роскошь <span class="serif">без&nbsp;подписи.</span></h1>
+        <p class="hero__lead" data-hero-fade>Лонгслив-хенли из плотного хлопкового трикотажа. Ни&nbsp;логотипа, ни&nbsp;принта&nbsp;— только ткань, крой и&nbsp;посадка.</p>
+        <div class="hero__actions" data-hero-fade>
+          <a class="btn btn--primary" href="#buy" data-magnetic>
+            <span>Выбрать размер</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a class="btn btn--ghost" href="#product">Рассмотреть вещь</a>
+        </div>
+      </div>
+
+      <div class="hero__stage" data-hero-stage data-theme="dark">
+        <div class="hero__frame" data-hero-frame>
+          <img class="hero__img" data-hero-img
+               src="assets/img/hero-1600.webp"
+               srcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1600.webp 1600w, assets/img/hero-2400.webp 2400w"
+               sizes="100vw" width="2400" height="3200" fetchpriority="high"
+               alt="Мужчина в сером лонгсливе-хенли skryăba у резной деревянной двери в лучах солнца">
+          <div class="hero__caption" data-hero-caption>
+            <p><span class="serif">Серый меланж.</span> Ни&nbsp;одного логотипа.</p>
+            <p class="hero__caption-meta">S · M · L · XL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto" id="philosophy">
+      <div class="container">
+        <p class="eyebrow" data-reveal>Философия</p>
+        <p class="manifesto__text" data-scrub-words>Мы убрали с&nbsp;одежды всё, что кричит: логотип, принт, наценку за&nbsp;имя. Осталось то, что чувствуешь кожей,&nbsp;— плотная ткань, точный крой и&nbsp;посадка, в&nbsp;которой хочется прожить весь день.</p>
+      </div>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="container story__grid">
+        <header class="story__head">
+          <p class="eyebrow" data-reveal>История бренда</p>
+          <h2 class="h2" data-split>Красиво&nbsp;— значит <span class="serif">без&nbsp;лишнего.</span></h2>
+        </header>
+        <div class="story__body">
+          <p class="story__lead" data-reveal>Всё началось с&nbsp;простого наблюдения. Я&nbsp;ходил по&nbsp;городу и&nbsp;видел, как много мужчин одеты плохо: вещи не&nbsp;по&nbsp;фигуре, случайные сочетания, крупные надписи на&nbsp;груди.</p>
+          <p data-reveal>И&nbsp;было понятно другое: девушки хотят видеть рядом красивого мужчину. Не&nbsp;обязательно в&nbsp;дорогом костюме&nbsp;— просто собранного, ухоженного, одетого со&nbsp;вкусом.</p>
+          <p data-reveal>Так появилась skryăba&nbsp;— бренд одежды без надписей. Минимализм, в&nbsp;котором нет ничего лишнего: хорошая ткань, точная посадка, спокойный цвет. Вещи, которые не&nbsp;рекламируют бренд, а&nbsp;делают красивым того, кто их&nbsp;носит.</p>
+          <p class="story__sign" data-reveal>
+            <svg class="breve" viewBox="0 0 40 16" aria-hidden="true"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+            Основатель skryăba
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NAME ============ -->
+    <section class="name" data-name>
+      <div class="container">
+        <p class="eyebrow" data-reveal>О&nbsp;названии</p>
+        <div class="name__mark">
+          <span class="wm wm--giant" role="img" aria-label="skryăba">
+            <span class="wm__l" aria-hidden="true">s</span><span class="wm__l" aria-hidden="true">k</span><span class="wm__l" aria-hidden="true">r</span><span class="wm__l" aria-hidden="true">y</span><span class="wm__l wm__a" aria-hidden="true">a<svg class="breve breve--draw" viewBox="0 0 40 16" data-breve-draw><path pathLength="1" d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg><span class="name__note" data-name-note><i></i>единственный знак бренда</span></span><span class="wm__l" aria-hidden="true">b</span><span class="wm__l" aria-hidden="true">a</span>
+          </span>
+        </div>
+        <div class="name__cols">
+          <p data-reveal><strong>skryăba&nbsp;— от&nbsp;«скрыта».</strong> Настоящая роскошь не&nbsp;выставляет себя напоказ: её&nbsp;не&nbsp;видно издалека, её&nbsp;чувствуешь, когда надеваешь вещь.</p>
+          <p data-reveal>Маленькую дужку над «ă» заметит только тот, кто присмотрится. С&nbsp;качеством так&nbsp;же: оно в&nbsp;деталях, а&nbsp;не&nbsp;в&nbsp;надписях.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABSENT ============ -->
+    <section class="absent" data-theme="dark">
+      <div class="container">
+        <p class="eyebrow eyebrow--light" data-reveal>Чего здесь нет</p>
+        <ul class="absent__list">
+          <li data-strike><span>Логотип на&nbsp;груди</span><i aria-hidden="true"></i></li>
+          <li data-strike><span>Кричащий принт</span><i aria-hidden="true"></i></li>
+          <li data-strike><span>Наценка за&nbsp;имя</span><i aria-hidden="true"></i></li>
+          <li data-strike><span>Ткань, что скатывается</span><i aria-hidden="true"></i></li>
+        </ul>
+
+        <div class="absent__remain-wrap">
+          <p class="eyebrow eyebrow--light" data-reveal>Что осталось</p>
+          <p class="absent__remain" data-split>Ткань. Крой. <span class="serif">Посадка.</span></p>
+        </div>
+
+        <!-- ЗАМЕНИТЬ: плотность ткани — реальное значение -->
+        <dl class="stats">
+          <div class="stats__item" data-reveal>
+            <dt><span data-count-from="12" data-count-to="0">0</span></dt>
+            <dd>логотипов на&nbsp;вещи</dd>
+          </div>
+          <div class="stats__item" data-reveal>
+            <dt><span data-count-from="0" data-count-to="220">220</span><small>г/м²</small></dt>
+            <dd>плотность трикотажа</dd>
+          </div>
+          <div class="stats__item" data-reveal>
+            <dt><span data-count-from="0" data-count-to="1">1</span></dt>
+            <dd>вещь в&nbsp;коллекции. Пока&nbsp;что.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" id="product">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Вещь</p>
+          <h2 class="h2" data-split>Одна вещь, продуманная <span class="serif">до&nbsp;пуговицы.</span></h2>
+        </header>
+
+        <div class="features__grid">
+          <div class="features__sticky" aria-hidden="true">
+            <div class="shell">
+              <div class="shell__core features__media">
+                <img class="is-active" src="assets/img/d-fabric.webp" width="640" height="800" alt="" loading="lazy">
+                <img src="assets/img/d-placket.webp" width="560" height="700" alt="" loading="lazy">
+                <img src="assets/img/d-fit.webp" width="1100" height="1375" alt="" loading="lazy">
+                <img src="assets/img/d-sleeve.webp" width="700" height="875" alt="" loading="lazy">
+              </div>
+            </div>
+            <div class="features__progress">
+              <span class="features__count"><span data-feature-count>01</span> / 04</span>
+              <span class="features__bar"><i data-feature-bar></i></span>
+            </div>
+          </div>
+
+          <div class="features__list" data-features>
+            <!-- ЗАМЕНИТЬ: состав и плотность — реальные данные -->
+            <article class="feature">
+              <figure class="feature__media"><img src="assets/img/d-fabric.webp" width="640" height="800" loading="lazy" alt="Фактура серого меланжевого трикотажа на рукаве"></figure>
+              <p class="feature__num">01 — Ткань</p>
+              <h3 class="feature__title">Плотный трикотаж, который держит форму</h3>
+              <p class="feature__text">Хлопок с&nbsp;небольшим добавлением эластана: мягкий к&nbsp;телу, не&nbsp;просвечивает и&nbsp;не&nbsp;теряет вид после стирок.</p>
+            </article>
+            <article class="feature">
+              <figure class="feature__media"><img src="assets/img/d-placket.webp" width="560" height="700" loading="lazy" alt="Планка-хенли на четырёх пуговицах крупным планом"></figure>
+              <p class="feature__num">02 — Планка</p>
+              <h3 class="feature__title">Четыре пуговицы вместо логотипа</h3>
+              <p class="feature__text">Короткая планка-хенли делает базовую вещь собранной. Застегните под пиджак или расстегните&nbsp;— к&nbsp;брюкам и&nbsp;кожаной сумке.</p>
+            </article>
+            <article class="feature">
+              <figure class="feature__media"><img src="assets/img/d-fit.webp" width="1100" height="1375" loading="lazy" alt="Посадка лонгслива по фигуре: плечи и руки"></figure>
+              <p class="feature__num">03 — Посадка</p>
+              <h3 class="feature__title">По&nbsp;фигуре, но&nbsp;не&nbsp;в&nbsp;обтяжку</h3>
+              <p class="feature__text">Приталенный силуэт подчёркивает плечи и&nbsp;руки, оставляя свободу движения. Длина&nbsp;— чтобы носить навыпуск или заправлять в&nbsp;брюки.</p>
+            </article>
+            <article class="feature">
+              <figure class="feature__media"><img src="assets/img/d-sleeve.webp" width="700" height="875" loading="lazy" alt="Длинный рукав с мягкой манжетой на запястье"></figure>
+              <p class="feature__num">04 — Рукав</p>
+              <h3 class="feature__title">Длинный рукав с&nbsp;мягкой манжетой</h3>
+              <p class="feature__text">Манжета аккуратно садится на&nbsp;запястье. Рукав можно приподнять до&nbsp;локтя&nbsp;— вещь всё равно выглядит собранно.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span>без логотипа</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span class="serif">тихая роскошь</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span>коллекция 01</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span class="serif">серый меланж</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+        </div>
+        <div class="marquee__group">
+          <span>без логотипа</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span class="serif">тихая роскошь</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span>коллекция 01</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+          <span class="serif">серый меланж</span><svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ BUY ============ -->
+    <section class="buy" id="buy">
+      <div class="container buy__grid">
+        <div class="buy__gallery" data-reveal>
+          <div class="shell">
+            <div class="shell__core buy__stage" data-gallery>
+              <img class="is-active" src="assets/img/look-1400.webp" srcset="assets/img/look-800.webp 800w, assets/img/look-1400.webp 1400w" sizes="(max-width: 900px) 100vw, 50vw" width="1400" height="2489" loading="lazy" alt="Лонгслив-хенли skryăba в образе с чёрными брюками и ремнём">
+              <img src="assets/img/hero-1600.webp" srcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 50vw" width="1600" height="2133" loading="lazy" alt="Лонгслив-хенли skryăba в контровом солнечном свете">
+              <img src="assets/img/d-placket.webp" width="560" height="700" loading="lazy" alt="Планка на пуговицах крупным планом">
+              <img src="assets/img/d-sleeve.webp" width="700" height="875" loading="lazy" alt="Рукав и манжета крупным планом">
+            </div>
+          </div>
+          <div class="buy__thumbs" role="group" aria-label="Фотографии товара">
+            <button type="button" class="is-active" aria-pressed="true" aria-label="Фото 1: образ целиком"><img src="assets/img/t-look.webp" width="176" height="220" alt=""></button>
+            <button type="button" aria-pressed="false" aria-label="Фото 2: в солнечном свете"><img src="assets/img/t-hero.webp" width="176" height="220" alt=""></button>
+            <button type="button" aria-pressed="false" aria-label="Фото 3: планка"><img src="assets/img/t-placket.webp" width="176" height="220" alt=""></button>
+            <button type="button" aria-pressed="false" aria-label="Фото 4: рукав"><img src="assets/img/t-sleeve.webp" width="176" height="220" alt=""></button>
+          </div>
+        </div>
+
+        <div class="buy__info">
+          <p class="eyebrow" data-reveal>Коллекция&nbsp;01</p>
+          <h2 class="buy__title" data-split>Лонгслив-хенли</h2>
+
+          <div class="buy__meta" data-reveal>
+            <p class="buy__color"><span class="swatch" aria-hidden="true"></span>Серый меланж</p>
+            <!-- Цена (также в JSON-LD в <head>) -->
+            <p class="buy__price"><span data-price>3&nbsp;500&nbsp;₽</span></p>
+          </div>
+          <p class="buy__note" data-reveal>Цена без наценки за&nbsp;логотип&nbsp;— вы&nbsp;платите только за&nbsp;ткань и&nbsp;работу.</p>
+
+          <fieldset class="sizes" data-sizes data-reveal>
+            <div class="sizes__head">
+              <legend>Размер</legend>
+              <button type="button" class="link" data-open-sizes>Таблица размеров</button>
+            </div>
+            <div class="sizes__track">
+              <span class="sizes__indicator" aria-hidden="true"></span>
+              <label><input type="radio" name="size" value="S"><span>S</span></label>
+              <label><input type="radio" name="size" value="M"><span>M</span></label>
+              <label><input type="radio" name="size" value="L"><span>L</span></label>
+              <label><input type="radio" name="size" value="XL"><span>XL</span></label>
+            </div>
+            <p class="sizes__hint" data-size-hint aria-live="polite">Сидит по&nbsp;фигуре. Между размерами&nbsp;— берите больший.</p>
+          </fieldset>
+
+          <div class="buy__cta" data-reveal>
+            <a class="btn btn--primary btn--xl" href="#" target="_blank" rel="noopener" data-order data-magnetic>
+              <span data-order-label>Заказать в&nbsp;Telegram</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+            <p class="buy__micro">Откроется чат с&nbsp;нами&nbsp;— размер уже будет в&nbsp;сообщении. Подтвердим наличие и&nbsp;договоримся о&nbsp;доставке.</p>
+          </div>
+
+          <!-- ЗАМЕНИТЬ: условия доставки, обмена и оплаты -->
+          <ul class="perks" data-reveal>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5v-9Z M3 7.5l9 4.5 9-4.5 M12 12v9"/></svg>
+              <span>Доставка по&nbsp;всей России</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h13l-3-3 M20 15H7l3 3"/></svg>
+              <span>Обмен, если не&nbsp;подошёл размер</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z M8 12.5l2.5 2.5L16 9.5"/></svg>
+              <span>Оплата после подтверждения</span>
+            </li>
+          </ul>
+
+          <!-- ЗАМЕНИТЬ: реальный состав и уход -->
+          <dl class="specs" data-reveal>
+            <div><dt>Состав</dt><dd>95% хлопок, 5% эластан</dd></div>
+            <div><dt>Плотность</dt><dd>220&nbsp;г/м²</dd></div>
+            <div><dt>Посадка</dt><dd>Приталенная</dd></div>
+            <div><dt>Уход</dt><dd>Деликатная стирка при&nbsp;30°, наизнанку</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <div class="container faq__grid">
+        <header class="section-head">
+          <p class="eyebrow" data-reveal>Вопросы</p>
+          <h2 class="h2" data-split>Коротко <span class="serif">о&nbsp;главном.</span></h2>
+          <p class="faq__aside" data-reveal>Не&nbsp;нашли ответ? <a href="#" data-tg-link>Напишите нам в&nbsp;Telegram</a>&nbsp;— отвечаем лично.</p>
+        </header>
+
+        <div class="faq__list" data-accordion>
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-1" id="faq-1-q">Почему у&nbsp;вас нет логотипа?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-1" role="region" aria-labelledby="faq-1-q" inert><div><p>Потому что вещь должна говорить сама за&nbsp;себя. Мы&nbsp;не&nbsp;берём деньги за&nbsp;рекламу на&nbsp;вашей груди&nbsp;— только за&nbsp;ткань, крой и&nbsp;пошив.</p></div></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-2" id="faq-2-q">Как подобрать размер?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-2" role="region" aria-labelledby="faq-2-q" inert><div><p>Сверьтесь с&nbsp;<button type="button" class="link" data-open-sizes>таблицей размеров</button>. Лонгслив садится по&nbsp;фигуре: если вы&nbsp;между размерами или любите свободнее&nbsp;— берите больший. Сомневаетесь&nbsp;— напишите нам рост и&nbsp;вес, подскажем.</p></div></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-3" id="faq-3-q">Как оформить заказ?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-3" role="region" aria-labelledby="faq-3-q" inert><div><p>Выберите размер и&nbsp;нажмите «Заказать в&nbsp;Telegram». Откроется чат, где уже будет ваш размер. Мы&nbsp;подтвердим наличие, сумму и&nbsp;способ доставки.</p></div></div>
+          </div>
+          <!-- ЗАМЕНИТЬ: реальные сроки и службы доставки -->
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-4" id="faq-4-q">Сколько идёт доставка?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-4" role="region" aria-labelledby="faq-4-q" inert><div><p>Отправляем СДЭК или Почтой России в&nbsp;течение 1–2 дней после оплаты. Дорога обычно занимает от&nbsp;2 до&nbsp;7 дней&nbsp;— зависит от&nbsp;города.</p></div></div>
+          </div>
+          <!-- ЗАМЕНИТЬ: реальные условия возврата -->
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-5" id="faq-5-q">Можно обменять или вернуть?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-5" role="region" aria-labelledby="faq-5-q" inert><div><p>Да. Напишите нам в&nbsp;течение 7&nbsp;дней после получения&nbsp;— обменяем размер или вернём деньги. Вещь должна сохранить товарный вид и&nbsp;бирки.</p></div></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <h3><button type="button" class="faq__q" aria-expanded="false" aria-controls="faq-6" id="faq-6-q">Как ухаживать за&nbsp;лонгсливом?<span class="faq__icon" aria-hidden="true"></span></button></h3>
+            <div class="faq__a" id="faq-6" role="region" aria-labelledby="faq-6-q" inert><div><p>Стирка при&nbsp;30° на&nbsp;деликатном режиме, наизнанку. Не&nbsp;отбеливать и&nbsp;не&nbsp;сушить в&nbsp;машине. Гладить с&nbsp;изнанки при&nbsp;низкой температуре.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" data-theme="dark">
+    <div class="container">
+      <div class="footer__cta">
+        <h2 class="h2 h2--light" data-split>Одна вещь. <span class="serif">Сделанная как&nbsp;следует.</span></h2>
+        <div class="footer__side">
+          <p class="footer__lead" data-reveal>Без логотипа и&nbsp;лишних слов. Хорошая база, к&nbsp;которой рука тянется каждое утро.</p>
+          <div data-reveal>
+            <a class="btn btn--light" href="#buy" data-magnetic>
+              <span>Выбрать размер</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__mark" data-footer-mark>
+      <span class="wm wm--footer" role="img" aria-label="skryăba">
+        <span class="wm__l" aria-hidden="true">s</span><span class="wm__l" aria-hidden="true">k</span><span class="wm__l" aria-hidden="true">r</span><span class="wm__l" aria-hidden="true">y</span><span class="wm__l wm__a" aria-hidden="true">a<svg class="breve" viewBox="0 0 40 16"><path d="M3 2.5c2.6 7.6 8.6 11.5 17 11.5s14.4-3.9 17-11.5"/></svg></span><span class="wm__l" aria-hidden="true">b</span><span class="wm__l" aria-hidden="true">a</span>
+      </span>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> skryăba</p>
+      <nav class="footer__links" aria-label="Соцсети">
+        <a href="#" data-tg-link>Telegram</a>
+        <a href="#" data-ig-link target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <a href="#top" class="footer__top">Наверх <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <!-- ============ SIZE GUIDE ============ -->
+  <!-- ЗАМЕНИТЬ: реальные замеры изделия -->
+  <dialog class="sheet" id="sizesDialog" aria-labelledby="sizesTitle">
+    <div class="sheet__inner">
+      <div class="sheet__head">
+        <h2 id="sizesTitle">Таблица размеров</h2>
+        <button type="button" class="sheet__close" aria-label="Закрыть" data-close-sizes>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg>
+        </button>
+      </div>
+      <div class="sheet__table">
+        <table>
+          <thead>
+            <tr><th scope="col">Размер</th><th scope="col">Обхват груди</th><th scope="col">Длина изделия</th><th scope="col">Длина рукава</th><th scope="col">Рост</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">S</th><td>88–94</td><td>68</td><td>62</td><td>165–172</td></tr>
+            <tr><th scope="row">M</th><td>94–100</td><td>70</td><td>63</td><td>170–178</td></tr>
+            <tr><th scope="row">L</th><td>100–106</td><td>72</td><td>64</td><td>176–184</td></tr>
+            <tr><th scope="row">XL</th><td>106–112</td><td>74</td><td>65</td><td>182–190</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sheet__note">Все замеры в&nbsp;сантиметрах. Лонгслив садится по&nbsp;фигуре: если вы&nbsp;между размерами&nbsp;— берите больший. Не&nbsp;уверены? <a href="#" data-tg-link>Напишите нам</a> рост и&nbsp;вес&nbsp;— подберём.</p>
+    </div>
+  </dialog>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/SplitText.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
